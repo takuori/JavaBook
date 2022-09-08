@@ -52,6 +52,8 @@ public class Bihin {
 		return "Bihin [name=" + name + ", date=" + date + ", price=" + price + ", quantity=" + quantity + "]";
 	}
 	
-	
+	public boolean isAfterBihin(LocalDate dateX) {
+		return date.isAfter(dateX);
+	}
 
 }
