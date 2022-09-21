@@ -10,6 +10,7 @@ public class HashMapExample {
 		map.put(105, "佐々木");
 		
 		System.out.println(map.get(108));
+		System.out.println(map.get("玉井")); //nullになる
 	}
 
 }
