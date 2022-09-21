@@ -9,7 +9,7 @@ public class HashMapExample {
 		map.put(108, "百田");
 		map.put(105, "佐々木");
 		
-		System.out.println(map.get(105));
+		System.out.println(map.get(118));
 		
 	}
 
