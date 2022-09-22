@@ -20,7 +20,7 @@ public class Fruits {
 		System.out.println("banana:" + map.get("banana"));
 		System.out.println("grape:" + map.get("grape"));
 		System.out.println("pineapple:" + map.getOrDefault("pineapple", "フルーツ"));
-		System.out.println("suica:" + map.getOrDefault(190, "野菜"));
+		System.out.println("suica:" + map.getOrDefault(190, "野菜だよ"));
 	}
 
 }
