@@ -7,6 +7,8 @@ record Student(int id, String name) implements Comparable<Student>{
 	public int compareTo(Student other) {
 		return Integer.compare(this.id,  other.id);
 	}
+	
+	
 } //Studentレコード
 
 public class StudentList {
