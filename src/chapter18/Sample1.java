@@ -15,6 +15,7 @@ public class Sample1 {
 			
 			//Child型のリストを並び替えるため、Parentクラスのフィールドを指定している。（境界ワイルドカード型<? super E>スーパークラス型への拡張）
 			c_list.sort(Comparator.comparing(Parent::key));
+			//
 		
 	}
 
