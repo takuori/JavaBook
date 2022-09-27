@@ -17,6 +17,14 @@ public class CreateDate {
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("Gy年MM月dd日 eeee");
 		JapaneseDate jdate = JapaneseDate.from(date);
 		System.out.println(jdate.format(fmt));
+		
+		System.out.println(date.getYear());
+		System.out.println(date.getMonthValue());
+		System.out.println(date.getDayOfMonth());
+		
+		LocalDate newDay = today.plusDays(150);
+		System.out.println(newDay);
+		
 	}
 
 }
