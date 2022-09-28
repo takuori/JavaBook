@@ -12,6 +12,11 @@ public class EnumExample {
 		
 		list.forEach(System.out::println);
 		
+		//色がColor.BLACKだけのものを抽出
+		list.stream()
+		    .filter(s -> s.color() == Color.BLACK)
+		    .forEach(System.out::println);
+		
 	}
 
 }
